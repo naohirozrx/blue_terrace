@@ -1,0 +1,43 @@
+.single-header-thum {
+  position: relative;
+  overflow: hidden;
+  max-height: 511px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .single-header-thum-inner {
+    position: absolute;
+    filter: blur(10px);
+    transform: scale(1.02);
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+
+    max-height: 511px;
+  }
+
+  img {
+    position: relative;
+    width: 100%;
+    height: auto;
+    z-index: 2;
+    @media screen and (min-width: width(sp)) {
+      height: 100%;
+      width: auto;
+    }
+  }
+
+}
+
+.top-back {
+  width: 200px;
+  height: 50px;
+  border: 1px solid #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 40px auto;
+  
+}

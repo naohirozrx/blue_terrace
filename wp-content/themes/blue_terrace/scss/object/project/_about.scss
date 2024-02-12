@@ -1,0 +1,67 @@
+#about-top {
+  @include titleArea;
+  background-image: url('../images/main-sea.jpg');
+}//home-top
+
+#about-main {
+  padding-top: 60px;
+  position: relative;
+  z-index: 100;
+  @media screen and (min-width: width(sp)) {
+    padding-top: 90px;
+  }//@media
+  > div {
+    position: relative;
+    background-image: url('../images/bg-blueterras.png');
+    margin: 141px 0 178px 0;
+    padding: 120px 24px 72px 24px;
+    @media screen and (min-width: width(sp)) {
+      padding: 72px 100px;
+    }//@media
+    figure {
+      width: 318px;
+      height: 200px;
+      position: absolute;
+      top: -141px;
+      left: -24px;
+      @media screen and (min-width: width(sp)) {
+        width: 50%;
+        height: 400px;
+        top: auto;
+        bottom: 0;
+      }//@media
+      &.one {
+        clip-path: polygon(0 0, 100% 0, 90% 100%, 0% 100%);
+      }//.one
+      &.two {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 10% 100%);
+        margin-left: auto;
+        right: 0;
+        @media screen and (min-width: width(sp)) {
+        }//@media
+      }//.two
+      img {
+        width: 100%;
+        height: auto;
+      }//img
+    }//figure
+    > div {
+      @media screen and (min-width: width(sp)) {
+        width: 50%;
+        margin-left: 50%;
+        &.right {
+          margin-left: 0;
+          margin-right: 50%;
+        }
+      }//@media
+      h2 {
+        font-size: .24rem;
+        font-family: $mplus;
+        margin-bottom: 24px;
+        @media screen and (min-width: width(sp)) {
+          margin-bottom: 40px;
+        }//@media
+      }
+    }
+  }//div
+}//about-main

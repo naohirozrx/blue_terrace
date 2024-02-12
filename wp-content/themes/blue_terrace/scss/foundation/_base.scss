@@ -1,0 +1,13 @@
+@mixin background-gradation {
+  background: linear-gradient(90deg, #E2FBB9 0%, #B1F7F3 100%);
+}
+
+@mixin sectionSpace {
+  width: 100%;
+  padding: 60px 24px;
+  @media screen and (min-width: width(sp)) {
+    max-width: 1100px;
+    margin: auto;
+    padding: 120px 0px;
+  }//@media
+}

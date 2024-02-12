@@ -1,0 +1,20 @@
+//font_weight
+$font_w_t: 250;
+$font_w_l: 300;
+$font_w_r: 400;
+$font_w_m: 500;
+$font_w_b: 700;
+$font_w_bb: 900;
+
+html{
+  font-size: 625%;
+}
+
+body {
+  font-size: .14em;
+  letter-spacing: .06em;
+  line-height: 1.6;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+$mplus: 'M PLUS 1', sans-serif;

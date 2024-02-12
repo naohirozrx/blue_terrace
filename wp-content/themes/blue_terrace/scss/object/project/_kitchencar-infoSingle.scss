@@ -1,0 +1,146 @@
+#kitchencarS-top {
+  @include titleArea;
+  background-color: #116A99;
+}//home-top
+
+#kitchencarS-main {
+  position: relative;
+  z-index: 100;
+  padding: 77px 24px 0 24px;
+  width: 100%;
+  @media screen and (min-width: width(sp)) {
+    padding: 100px 24px 0 24px;
+    max-width: 780px;
+    margin: auto;
+  }//@media
+  article {
+    font-family: $mplus;
+    > img {
+      width: 100%;
+      height: auto;
+      margin-bottom: 24px;
+      @media screen and (min-width: width(sp)) {
+        margin-bottom: 42px;
+      }//@media
+    }//img
+    data {
+      font-size: .12rem;
+      font-weight: 700;
+      margin-bottom: 24px;
+      display: block;
+      &:before {
+        color: #fff;
+        padding: 5px;
+        margin-right: 8px;
+      }//:before
+    }//data
+> h2 {
+      font-size: .21rem;
+      font-weight: bold;
+      margin-bottom: 42px;
+    }//h2
+    span {
+      display: block;
+      font-size: .14rem;
+      font-weight: 500;
+      @media screen and (min-width: width(sp)) {
+        font-size: .16rem;
+      }//@media
+    }//span
+    div {
+      margin-bottom: 100px;
+      h2 {
+        font-size: .18rem;
+        font-weight: bold;
+        margin-bottom: 32px;
+        &::before {
+          content: "-";
+        }
+      }
+      h3 {
+        font-size: .16rem;
+        font-weight: bold;
+        margin-bottom: 32px;
+        &::before {
+          content: "-";
+        }
+      }
+      h4 {
+        font-size: .14rem;
+        font-weight: bold;
+        margin-bottom: 32px;
+        &::before {
+          content: "-";
+        }
+      }
+      p {
+        font-size: .14rem;
+        line-height: 2;
+        margin-bottom: 32px;
+      }
+      img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 32px;
+      }
+    }//div
+    &.category-info {
+      data {
+        &:before {
+          content: 'お知らせ';
+          background-color: #8CC929;
+        }//:before
+      }//data
+      span {
+        display: none;
+      }
+    }
+    &.category-stand-info {
+      data {
+        &:before {
+          content: '出店情報';
+          background-color: #2E84C3;
+        }//:before
+      }//data
+      > h2 {
+        margin-bottom: 0;
+      }
+      div {
+        margin-top: 20px;
+      }
+    }
+  }//article
+  > a {
+    font-size: .12rem;
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 60px;
+    border: 1px solid #000;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    @media screen and (min-width: width(sp)) {
+      font-size: .14rem;
+      width: 400px;
+      margin: auto;
+    }//@media
+    span {
+      width: 100%;
+      position: relative;
+      img {
+        width: 8px;
+        height: auto;
+        position: absolute;
+        top: 50%;
+        left: 16px;
+        transform: translateY(-50%);
+        @media screen and (min-width: width(sp)) {
+          width: 16px;
+          left: 30px;
+        }//@media
+      }//img
+    }//span
+  }//a
+}

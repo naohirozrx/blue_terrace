@@ -1,0 +1,277 @@
+#daycamp-top {
+  @include titleAreaBig;
+  background-image: url('../images/daycamp-imageOld.jpg');
+  background-position: top 70% center;
+  position: relative;
+  h2 {
+    img {
+        top: 100px;
+        left: 24px;
+      @media screen and (min-width: width(sp)) {
+        top: 180px;
+        left: 50px;
+      }//@media
+    }
+  }
+}//home-top
+
+#daycamp-picnic {
+  position: relative;
+  z-index: 100;
+  padding: 64px 0;
+  font-family: $mplus;
+  @media screen and (min-width: width(sp)) {
+    padding: 140px 0;
+  }//@media
+  > h2 {
+    @include h2titleBlack;
+  }//h2
+  div {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    @media screen and (min-width: width(sp)) {
+      gap: 0;
+    }//@media
+    dl {
+      @media screen and (min-width: width(sp)) {
+        display: flex;
+      }//@media
+      &:nth-child(2) {
+        flex-direction: row-reverse;
+      }      
+      dt {
+        width: 100%;
+        @media screen and (min-width: width(sp)) {
+          width: 50%;
+        }//@media
+        img {
+          width: 100%;
+          height: auto;
+        }
+      }//dt
+      dd {
+        padding: 24px;
+        @media screen and (min-width: width(sp)) {
+          width: 50%;
+          padding: 40px;
+        }//@media
+        h3 {
+          font-size: .16rem;
+          font-weight: 500;
+          margin-bottom: 16px;
+          @media screen and (min-width: width(sp)) {
+            font-size: .18rem;
+          }//@media
+        }
+        p {
+          font-size: .14rem;
+          @media screen and (min-width: width(sp)) {
+            font-size: .16rem;
+          }//@media
+          span {
+            display: block;
+            font-weight: 500;
+          }
+        }
+      }//dd
+    }//dl
+  }//div
+  aside {
+    width: 100%;
+    background-color: #D9D9D9;
+    padding: 40px 24px;
+    text-align: center;
+    @media screen and (min-width: width(sp)) {
+      padding: 80px 24px;
+    }//@media
+    h2 {
+      font-size: .16rem;
+      font-weight: 500;
+      margin-bottom: 20px;
+      @media screen and (min-width: width(sp)) {
+        font-size: .2rem;
+      }//@media
+    }
+    p {
+      text-align: left;
+      margin: auto;
+      @media screen and (min-width: width(sp)) {
+        width: 610px;
+      }//@media
+    }//p
+  }//aside
+}
+
+#daycamp-camp {
+  margin-bottom: 100px;
+  @media screen and (min-width: width(sp)) {
+    margin-bottom: 140px;
+  }//@media
+  > img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: 0 100%;
+    margin-bottom: 24px;
+    @media screen and (min-width: width(sp)) {
+      height: 500px;
+      margin-bottom: 64px;
+    }//@media
+  }
+  div {
+    width: 100%;
+    padding: 0 24px;
+    @media screen and (min-width: width(sp)) {
+      max-width: 1000px;
+      margin: auto;
+    }//@media
+    h2 {
+      @include h2titleBlack;
+      margin-left: 0;
+      margin-bottom: 20px;
+      @media screen and (min-width: width(sp)) {
+        margin-left: 0;
+        margin-bottom: 40px;
+      }//@media
+    }//h2
+    > p {
+      font-size: .14rem;
+      margin-bottom: 40px;
+      @media screen and (min-width: width(sp)) {
+        font-size: .16rem;
+        margin-bottom: 60px;
+      }//@media
+    }//p
+    dl {
+      @media screen and (min-width: width(sp)) {
+        display: flex;
+        align-items: flex-end;
+        gap: 40px;
+      }//@media
+      dt {
+        width: 100%;
+        @media screen and (min-width: width(sp)) {
+          width: 50%;  
+        }//@media
+        img {
+          width: 100%;
+          height: auto;
+          margin-bottom: 16px;
+          @media screen and (min-width: width(sp)) {
+            margin-bottom: 0;
+          }//@media
+        }//img
+      }//dt
+      dd {
+        width: 100%;
+        @media screen and (min-width: width(sp)) {
+          width: 50%;
+        }//@media
+        p {
+          font-size: .12rem;
+          margin-bottom: 16px;
+          @media screen and (min-width: width(sp)) {
+            font-size: .14rem;
+            margin-bottom: 24px;
+          }//@media
+        }//p
+        img {
+          width: 100%;
+          height: auto;
+        }//img
+      }//dd
+    }//dl
+  }//div
+}
+
+#daycamp-scenery {
+  background-image: url('../images/scenery1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 65% 50%;
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  margin-bottom: 100px;
+  @media screen and (min-width: width(sp)) {
+    height: 720px;
+    background-position: center;  
+    margin-bottom: 140px;
+  }//@media
+  div {
+    width: 100%;
+    @media screen and (min-width: width(sp)) {
+      max-width: 1000px;
+      margin: auto;
+    }//@media
+    h2 {
+      @include h2titleBlack;
+      margin-bottom: 20px;
+      @media screen and (min-width: width(sp)) {
+        margin-bottom: 40px;
+      }//@media
+    }//h2
+    p {
+      font-size: .14rem;
+      background-color: rgba($color: #fff, $alpha: .6);
+      margin: auto;
+      width: 64%;
+      padding: 20px;
+      @media screen and (min-width: width(sp)) {
+        width: 400px;
+        font-size: .16rem;
+        padding: 32px;
+      }//@media
+    }//p
+  }//div
+}
+
+#daycamp-hotspring {
+  width: 100%;
+  margin-bottom: 100px;
+  @media screen and (min-width: width(sp)) {
+    margin-bottom: 140px;
+  }//@media
+  div {
+    width: 100%;
+    @media screen and (min-width: width(sp)) {
+      max-width: 1000px;
+      margin: auto;
+    }//@media
+    h2 {
+      @include h2titleBlack;
+      width: 210px;
+      margin-right: 24px;
+      margin-bottom: 20px;
+      @media screen and (min-width: width(sp)) {
+        width: 380px;
+        margin-right: 0;
+        margin-bottom: 40px;  
+      }//@media
+    }
+    p {
+      font-size: .14rem;
+      padding: 0 24px;
+      @media screen and (min-width: width(sp)) {
+        font-size: .16rem;
+        width: 51%;
+        margin: 0 0 40px auto;
+        padding: 0;
+      }//@media
+    }//p  
+  }//div
+  aside {
+    width: 100%;
+    img {
+      width: 100%;
+      height: auto;
+      @media screen and (min-width: width(sp)) {
+        width: 33.3333%;
+        margin: 0;
+      }//@media
+    }
+  }
+}

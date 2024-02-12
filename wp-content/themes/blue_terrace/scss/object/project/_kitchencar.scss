@@ -1,0 +1,247 @@
+#kitchencar-top {
+  @include titleAreaBig;
+  background-image: url('../images/kitchencar-image.jpg');
+  background-position: top 70% center;
+  h2 {
+    img {
+      bottom: 20px;
+      right: 24px;
+      @media screen and (min-width: width(sp)) {
+        bottom: 20px;
+        right: 0px;
+      }//@media
+    }
+  }
+}//kitchencar-top
+
+#kitchencar-about {
+  position: relative;
+  z-index: 100;
+  padding: 64px 0;
+  width: 100%;
+  @media screen and (min-width: width(sp)) {
+    max-width: 1000px;
+    margin: auto;
+    padding: 140px 0;
+  }//@media
+  > dl {
+    margin-bottom: 20px;
+    padding: 0 24px;
+    @media screen and (min-width: width(sp)) {
+      position: relative;
+      margin-bottom: 64px;
+    }//@media
+    dt {
+      margin-bottom: 24px;
+      @media screen and (min-width: width(sp)) {
+        position: absolute;
+        margin-bottom: 0;
+        top: 40px;
+      }//@media
+      h2 {
+        @include h2titleMini;
+      }//h2
+      p {
+        font-size: .14rem;
+        font-family: $mplus;
+        line-height: 2;
+        @media screen and (min-width: width(sp)) {
+          width: 380px;
+          font-size: .16rem;
+        }//@media
+      }//p
+    }//dt
+    dd {
+      width: 100%;
+      @media screen and (min-width: width(sp)) {
+        width: 640px;
+        margin-left: auto;  
+      }//@media
+      img {
+        width: 100%;
+        height: auto;
+        border-radius: 30px 0 36px 0;
+      }//img
+    }//dd
+  }//dl
+  article {
+    display: flex;
+    overflow-x: auto;
+    padding: 0 24px;
+    gap: 16px;
+    white-space: nowrap;
+    @media screen and (min-width: width(sp)) {
+      gap: 0;
+      justify-content: space-between;
+    }//@media  
+    > dl {
+      flex: 0 0 45%;
+      box-sizing: border-box;
+      white-space: normal;
+      @media screen and (min-width: width(sp)) {
+        flex: 0 0 300px;
+      }//@media
+      > dt {
+        margin-bottom: 8px;  
+        @media screen and (min-width: width(sp)) {
+          margin-bottom: 13px;
+        }//@media
+        > img {
+          width: 100%;
+          height: auto;
+          border-radius: 20px 0 20px 0;
+        }//img
+      }//dt
+      > dd {
+        font-family: $mplus;
+        > h3 {
+          font-size: .16rem;
+          font-weight: bold;
+          margin-bottom: 8px;
+          @media screen and (min-width: width(sp)) {
+            font-size: .18rem;
+          }//@media
+        }//h3
+        > p {
+          font-size: .12rem;
+          @media screen and (min-width: width(sp)) {
+            font-size: .14rem;
+          }//@media
+        }//p
+      }//dd
+    }//dl
+  }//article  
+}//kitchencar-about
+
+#kitchencar-info {
+  position: relative;
+  width: 100%;
+  padding: 64px 0;
+  @media screen and (min-width: width(sp)) {
+    padding: 140px 0;
+  }//@media
+  h2 {
+    @include h2title;
+  }
+  > img {
+    position: absolute;
+    top: 0;
+    height: auto;
+    &.img-left {
+      left: 0;
+      width: 40%;
+    }
+    &.img-right {
+      right: 0;
+      width: 35%;
+    }
+  }//img
+  div {
+    a {
+      display: block;
+      margin-bottom: 40px;
+      font-family: $mplus;
+      dl {
+        width: 100%;
+        padding: 0 24px;
+        @media screen and (min-width: width(sp)) {
+          max-width: 1000px;
+          margin: auto;
+          display: flex;
+          justify-content: space-between;
+          padding: 0;
+        }//@media
+        dt {
+          width: 100%;
+          margin-bottom: 16px;
+          @media screen and (min-width: width(sp)) {
+            width: 490px;
+          }//@media
+          img {
+            width: 100%;
+            height: auto;
+          }//img
+        }//dt
+        dd {
+          @media screen and (min-width: width(sp)) {
+            width: calc(100% - 530px);
+            padding-top: 5px;
+          }//@media
+          data {
+            font-size: .12rem;
+            font-weight: 700;
+            margin-bottom: 8px;
+            display: block;
+            &:before {
+              color: #fff;
+              padding: 5px;
+              margin-right: 8px;
+            }//:before
+          }//data
+          h3 {
+            font-size: .16rem;
+            font-weight: bold;
+          }//h3
+          span {
+            display: block;
+            font-size: .14rem;
+            font-weight: 500;
+          }//span
+          p {
+            font-size: .12rem;
+            margin-top: 10px;
+          }
+        }//dd
+      }//dl
+      &.info {
+        dl {
+          dt {
+          }
+          dd {
+            data {
+              &:before {
+                content: 'お知らせ';
+                background-color: #8CC929;
+              }//:before
+            }//data
+            span {
+              display: none;
+            }
+          }//dd
+        }//dl
+      }//.info
+      &.stand-info {
+        dl {
+          dt {
+            mask-image: url('../images/kitchencar-foodtrack.svg');
+            mask-repeat: no-repeat;
+            mask-position: 0 0;
+            mask-size: 100%;
+          }
+          dd {
+            data {
+              &:before {
+                content: '出店情報';
+                background-color: #2E84C3;
+              }//:before
+            }//data
+          }//dd
+        }//dl
+      }//.stand-info
+    }//a
+  }//div
+  > a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #000;
+    border-radius: 42px;
+    width: 220px;
+    height: 60px;
+    margin: 30px auto 0 auto;
+    @media screen and (min-width: width(sp)) {
+      margin: 60px auto 0 auto;
+      width: 500px;
+    }//@media
+  }//a
+}//#kitchencar-info

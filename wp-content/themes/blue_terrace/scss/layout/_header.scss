@@ -1,0 +1,79 @@
+header {
+  &#home-header {
+    display: flex;
+    position: fixed;
+    top: 6px;
+    left: 10px;
+    z-index: 9999;
+    @media screen and (min-width: width(sp)) {
+      display: none;
+    }//@media
+    h1 {
+      img {
+        width: 77px;
+        height: auto;
+      }//img
+    }//h1
+  }//#home-header
+  &#others-header {
+    display: none;
+    @media screen and (min-width: width(sp)) {
+      display: block;
+      div {
+        display: flex;
+        position: fixed;
+        width: 100%;
+        z-index: 9999;
+        @media screen and (min-width: width(sp)) {
+          background-image: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,0));
+          height: 100px;
+          justify-content: flex-end;
+        }//@media
+        h1 {
+          position: absolute;
+          top: 6px;
+          left: 10px;
+          @media screen and (min-width: width(sp)) {
+            top: 12px;
+            left: 23px;
+          }//@media
+          img {
+            width: 77px;
+            height: auto;
+            @media screen and (min-width: width(sp)) {
+              width: 123px;
+            }//@media
+          }//img
+        }//h1
+        ul {
+          display: flex;
+          gap: 0 48px;
+          position: absolute;
+          top: 16px;
+          right: 20px;
+          li {
+            a {
+              display: flex;
+              justify-content: center;
+              flex-direction: column;
+              color: #fff;
+              img {
+                width: auto;
+                height: 36px;
+                filter: invert(99%) sepia(0%) saturate(814%) hue-rotate(73deg) brightness(111%) contrast(100%);
+                display: block;
+                margin-bottom: 5px;
+                &.logo {
+                  filter: none;
+                  width: 63px;
+                  height: auto;
+                  margin: auto;
+                }//.logo
+              }//img
+            }//a
+          }//li
+        }//ul
+      }//div
+    }//@media
+  }//#others-header
+}//header
