@@ -26,6 +26,7 @@
 
 // ** データベース設定 - この情報はホスティング先から入手してください。 ** //
 /** WordPress のためのデータベース名 */
+if (strstr(@$_SERVER["SERVER_NAME"], 'localhost') || strstr(@$_SERVER["SERVER_NAME"], 'myapp.dev') ) {
 define( 'DB_NAME', 'blue_terrace' );
 
 /** データベースのユーザー名 */
@@ -42,7 +43,24 @@ define( 'DB_CHARSET', 'utf8' );
 
 /** データベースの照合順序 (ほとんどの場合変更する必要はありません) */
 define( 'DB_COLLATE', '' );
+} else {
+	define( 'DB_NAME', 'xb858966_wp5' );
 
+/** Database username */
+define( 'DB_USER', 'xb858966_wp5' );
+
+/** Database password */
+define( 'DB_PASSWORD', '0r7k1chjce' );
+
+/** Database hostname */
+define( 'DB_HOST', 'localhost' );
+
+/** Database charset to use in creating database tables. */
+define( 'DB_CHARSET', 'utf8' );
+
+/** The database collate type. Don't change this if in doubt. */
+define( 'DB_COLLATE', '' );
+}
 /**#@+
  * 認証用ユニークキー
  *

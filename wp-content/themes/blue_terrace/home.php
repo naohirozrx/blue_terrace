@@ -4,37 +4,37 @@
   <h2><img src="<?php echo get_template_directory_uri(); ?>/images/logo-white.png" alt="BLUE TERRACE" /></h2>
   <menu>
     <div>
-      <a href="">
+      <a href="<?php echo home_url('/')?>about">
         <dl>
           <dt><img src="<?php echo get_template_directory_uri(); ?>/images/logo-blue.png" alt="ブルーテラスについて" /></dt>
           <dd>ブルーテラスについて</dd>
         </dl>
       </a>
-      <a href="">
+      <a href="<?php echo home_url('/')?>food">
         <dl>
           <dt><img src="<?php echo get_template_directory_uri(); ?>/images/icon-menu.svg" alt="フード" /></dt>
           <dd>フード</dd>
         </dl>
       </a>
-      <a href="">
+      <a href="<?php echo home_url('/')?>party">
         <dl>
           <dt><img src="<?php echo get_template_directory_uri(); ?>/images/icon-party.svg" alt="パーティ" /></dt>
           <dd>パーティ</dd>
         </dl>
       </a>
-      <a href="">
+      <a href="<?php echo home_url('/')?>info">
         <dl>
           <dt><img src="<?php echo get_template_directory_uri(); ?>/images/icon-info.svg" alt="お知らせ" class="info" /></dt>
           <dd>お知らせ</dd>
         </dl>
       </a>
-      <a href="">
+      <a href="<?php echo home_url('/')?>gallery">
         <dl>
           <dt><img src="<?php echo get_template_directory_uri(); ?>/images/icon-gallery.svg" alt="ギャラリー" /></dt>
           <dd>ギャラリー</dd>
         </dl>
       </a>
-      <a href="">
+      <a href="<?php echo home_url('/')?>kitchencar">
         <dl>
           <dt><img src="<?php echo get_template_directory_uri(); ?>/images/icon-kitchencar.svg" alt="特設店舗・キッチンカー" /></dt>
           <dd>特設店舗・キッチンカー</dd>

@@ -69,7 +69,7 @@
  left: 0;
  z-index: 2;
   /*色や形状*/
- background:  #5fbbfe;/*背景色*/
+ background:  #000;/*背景色*/
  width: 100%;
   height: 0;
   /*アニメーション*/
@@ -79,8 +79,16 @@
 /*hoverした際の形状*/
 .bgbottom:hover:before{
  height: 100%;	
-  background-color: #5fbbfe;
+  background-color: #000;
 }
+
+.bgbottom:hover {
+  span {
+    transition:.3s cubic-bezier(0.8, 0, 0.2, 1) 0s;
+    color: #fff;
+  }
+}
+
 
 /*== 背景が流れる（右から左） */
 .bgright:before {
