@@ -43,6 +43,8 @@ define( 'DB_CHARSET', 'utf8' );
 
 /** データベースの照合順序 (ほとんどの場合変更する必要はありません) */
 define( 'DB_COLLATE', '' );
+define('WP_HOME', 'http://'.$_SERVER['HTTP_HOST']);
+define('WP_SITEURL', 'http://'.$_SERVER['HTTP_HOST']);
 } else {
 	define( 'DB_NAME', 'xb858966_wp5' );
 
@@ -60,6 +62,8 @@ define( 'DB_CHARSET', 'utf8' );
 
 /** The database collate type. Don't change this if in doubt. */
 define( 'DB_COLLATE', '' );
+define('WP_HOME', 'https://'.$_SERVER['HTTP_HOST']);
+define('WP_SITEURL', 'https://'.$_SERVER['HTTP_HOST']);
 }
 /**#@+
  * 認証用ユニークキー
