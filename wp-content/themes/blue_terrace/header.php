@@ -57,6 +57,56 @@
   <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
+  <script>
+  $(function(){
+    $('.sp-menu').on('click', function(){
+      $(this).toggleClass('close');
+      $('.sp-menu-wrap').fadeToggle();
+    });
+  });
+  </script>
+  <button class="sp-menu">
+    <span></span>
+    <span></span>
+    <span></span>
+  </button>
+  <div class="sp-menu-wrap">
+    <div>
+      <a href="<?php echo home_url('/')?>"><h1><img src="<?php echo get_template_directory_uri(); ?>/images/logo-color.png" alt="BLUE TERRACE"></h1></a>
+      <ul>
+        <li>
+          <a href="<?php echo home_url('/')?>about">
+          <span><img src="<?php echo get_template_directory_uri(); ?>/images/logo-white.png" alt="BLUE TERRACE" class="logo"></span>
+          ブルーテラスについて</a>
+        </li>
+        <li>
+          <a href="<?php echo home_url('/')?>food">
+          <span><img src="<?php echo get_template_directory_uri(); ?>/images/icon-menu.svg" alt="フード"></span>
+          フード</a>
+        </li>
+        <li>
+          <a href="<?php echo home_url('/')?>party">
+          <span><img src="<?php echo get_template_directory_uri(); ?>/images/icon-party.svg" alt="パーティ"></span>
+          パーティ</a>
+        </li>
+        <li>
+          <a href="<?php echo home_url('/')?>info">
+          <span><img src="<?php echo get_template_directory_uri(); ?>/images/icon-info.svg" alt="お知らせ" class="info"></span>
+          お知らせ</a>
+        </li>
+        <li>
+          <a href="<?php echo home_url('/')?>gallery">
+          <span><img src="<?php echo get_template_directory_uri(); ?>/images/icon-gallery.svg" alt="ギャラリー"></span>
+          ギャラリー</a>
+        </li>
+        <li>
+          <a href="<?php echo home_url('/')?>etc">
+          <span><img src="<?php echo get_template_directory_uri(); ?>/images/icon-kitchencar.svg" alt="特設店舗・キッチンカー"></span>
+          特設店舗・キッチンカー</a>
+        </li>
+      </ul>
+    </div>
+  </div>
 
 <?php if ( is_home() || is_front_page() ) : ?>
   <header id="home-header">
@@ -66,11 +116,8 @@
   <header id="home-header">
     <h1><img src="<?php echo get_template_directory_uri(); ?>/images/logo-white.png" alt="BLUE TERRACE"></h1>
   </header>
-  <button class="sp-menu">
-    <span></span>
-    <span></span>
-    <span></span>
-  </button>
+
+
   <header id="others-header">
     <div>
     <a href="<?php echo home_url('/')?>"><h1><img src="<?php echo get_template_directory_uri(); ?>/images/logo-white.png" alt="BLUE TERRACE"></h1></a>
