@@ -323,7 +323,7 @@ header#others-header {
     font-size: .24rem;
     font-weight: bold;
     margin-bottom: 64px;
-    font-family: "M PLUS 1", sans-serif;
+    font-family: "Noto Sans JP", sans-serif;
     text-align: center; }
     @media screen and (min-width: 769px) {
       #access h2 {
@@ -354,7 +354,7 @@ header#others-header {
         margin-bottom: 0; } }
   #access > div > div.right {
     line-height: 2;
-    font-family: "M PLUS 1", sans-serif; }
+    font-family: "Noto Sans JP", sans-serif; }
     @media screen and (min-width: 769px) {
       #access > div > div.right {
         padding: 0 60px; } }
@@ -391,7 +391,7 @@ header#others-header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/info.jpg");
   padding: 100px 24px;
   text-align: center;
-  font-family: "M PLUS 1", sans-serif;
+  font-family: "Noto Sans JP", sans-serif;
   color: #fff;
   display: flex;
   flex-direction: column;
@@ -457,7 +457,7 @@ header#others-header {
       padding: 0 80px; } }
   #sea dl dd h2 {
     font-size: .24rem;
-    font-family: "M PLUS 1", sans-serif;
+    font-family: "Noto Sans JP", sans-serif;
     margin-bottom: 32px;
     text-align: center; }
     @media screen and (min-width: 769px) {
@@ -541,7 +541,7 @@ footer > div {
       margin-right: 30px; }
       footer > div div ul li a {
         color: #fff;
-        font-family: "M PLUS 1", sans-serif;
+        font-family: "Noto Sans JP", sans-serif;
         font-size: .14rem; }
 footer span {
   font-size: .12rem;
@@ -598,7 +598,7 @@ footer span {
             display: flex;
             justify-content: center;
             align-items: center;
-            font-family: "M PLUS 1", sans-serif; }
+            font-family: "Noto Sans JP", sans-serif; }
             #home-top menu div a dl dt {
               width: 63px;
               height: 36px;
@@ -626,7 +626,7 @@ footer span {
     font-size: .24rem;
     font-weight: bold;
     margin-bottom: 64px;
-    font-family: "M PLUS 1", sans-serif;
+    font-family: "Noto Sans JP", sans-serif;
     text-align: center; }
     @media screen and (min-width: 769px) {
       #home-info > div h2 {
@@ -744,7 +744,7 @@ footer span {
     #home-menu a span {
       color: #fff;
       font-size: .14rem;
-      font-family: "M PLUS 1", sans-serif;
+      font-family: "Noto Sans JP", sans-serif;
       font-weight: bold;
       position: relative;
       z-index: 100; }
@@ -761,7 +761,7 @@ footer span {
     font-size: .24rem;
     font-weight: bold;
     margin-bottom: 64px;
-    font-family: "M PLUS 1", sans-serif;
+    font-family: "Noto Sans JP", sans-serif;
     text-align: center; }
     @media screen and (min-width: 769px) {
       #home-blueterras h2 {
@@ -779,7 +779,7 @@ footer span {
       #home-blueterras .about {
         margin-bottom: 160px; } }
     #home-blueterras .about p {
-      font-family: "M PLUS 1", sans-serif;
+      font-family: "Noto Sans JP", sans-serif;
       font-size: .16rem; }
       @media screen and (min-width: 769px) {
         #home-blueterras .about p {
@@ -841,7 +841,7 @@ footer span {
     align-items: center;
     color: #fff;
     font-size: .24rem;
-    font-family: "M PLUS 1", sans-serif; }
+    font-family: "Noto Sans JP", sans-serif; }
     @media screen and (min-width: 769px) {
       #about-top h2 {
         font-size: .48rem;
@@ -915,7 +915,7 @@ footer span {
           margin-right: 50%; } }
     #about-main > div > div h2 {
       font-size: .24rem;
-      font-family: "M PLUS 1", sans-serif;
+      font-family: "Noto Sans JP", sans-serif;
       margin-bottom: 24px; }
       @media screen and (min-width: 769px) {
         #about-main > div > div h2 {
@@ -951,7 +951,7 @@ footer span {
     align-items: center;
     color: #fff;
     font-size: .24rem;
-    font-family: "M PLUS 1", sans-serif; }
+    font-family: "Noto Sans JP", sans-serif; }
     @media screen and (min-width: 769px) {
       #food-top h2 {
         font-size: .48rem;
@@ -1016,7 +1016,7 @@ footer span {
     align-items: center;
     color: #fff;
     font-size: .24rem;
-    font-family: "M PLUS 1", sans-serif; }
+    font-family: "Noto Sans JP", sans-serif; }
     @media screen and (min-width: 769px) {
       #party-top h2 {
         font-size: .48rem;
@@ -1084,7 +1084,7 @@ footer span {
         margin-left: 50%; } }
     #party-info > div > div h2 {
       font-size: .24rem;
-      font-family: "M PLUS 1", sans-serif;
+      font-family: "Noto Sans JP", sans-serif;
       margin-bottom: 24px; }
       @media screen and (min-width: 769px) {
         #party-info > div > div h2 {
@@ -1103,7 +1103,7 @@ footer span {
     font-size: .24rem;
     font-weight: bold;
     margin-bottom: 64px;
-    font-family: "M PLUS 1", sans-serif;
+    font-family: "Noto Sans JP", sans-serif;
     text-align: center; }
     @media screen and (min-width: 769px) {
       #party-cancelpolicy h2 {
@@ -1119,7 +1119,7 @@ footer span {
       transform: translateX(-50%); } }
   #party-cancelpolicy div p {
     font-size: .16rem;
-    font-family: "M PLUS 1", sans-serif; }
+    font-family: "Noto Sans JP", sans-serif; }
 
 #party-menu {
   padding: 120px 24px 0 24px; }
@@ -1213,7 +1213,7 @@ footer span {
         font-size: .16rem;
         font-weight: bold;
         margin-bottom: 24px;
-        font-family: "M PLUS 1", sans-serif; }
+        font-family: "Noto Sans JP", sans-serif; }
         @media screen and (min-width: 769px) {
           #kitchencar-about > dl dt h2 {
             font-size: .24rem; } }
@@ -1222,7 +1222,7 @@ footer span {
             display: none; } }
       #kitchencar-about > dl dt p {
         font-size: .14rem;
-        font-family: "M PLUS 1", sans-serif;
+        font-family: "Noto Sans JP", sans-serif;
         line-height: 2; }
         @media screen and (min-width: 769px) {
           #kitchencar-about > dl dt p {
@@ -1265,7 +1265,7 @@ footer span {
           height: auto;
           border-radius: 20px 0 20px 0; }
       #kitchencar-about article > dl > dd {
-        font-family: "M PLUS 1", sans-serif; }
+        font-family: "Noto Sans JP", sans-serif; }
         #kitchencar-about article > dl > dd > h3 {
           font-size: .16rem;
           font-weight: bold;
@@ -1290,7 +1290,7 @@ footer span {
     font-size: .24rem;
     font-weight: bold;
     margin-bottom: 64px;
-    font-family: "M PLUS 1", sans-serif;
+    font-family: "Noto Sans JP", sans-serif;
     text-align: center; }
     @media screen and (min-width: 769px) {
       #kitchencar-info h2 {
@@ -1312,7 +1312,7 @@ footer span {
   #kitchencar-info div a {
     display: block;
     margin-bottom: 40px;
-    font-family: "M PLUS 1", sans-serif; }
+    font-family: "Noto Sans JP", sans-serif; }
     #kitchencar-info div a dl {
       width: 100%;
       padding: 0 24px; }
@@ -1402,7 +1402,7 @@ footer span {
     align-items: center;
     color: #fff;
     font-size: .24rem;
-    font-family: "M PLUS 1", sans-serif; }
+    font-family: "Noto Sans JP", sans-serif; }
     @media screen and (min-width: 769px) {
       #kitchencarInfo-top h2 {
         font-size: .48rem;
@@ -1439,7 +1439,7 @@ footer span {
     #kitchencarInfo-main {
       padding: 140px 0; } }
   #kitchencarInfo-main > div {
-    font-family: "M PLUS 1", sans-serif; }
+    font-family: "Noto Sans JP", sans-serif; }
     #kitchencarInfo-main > div > dl {
       width: 100%;
       padding: 0 24px; }
@@ -1564,7 +1564,7 @@ footer span {
     align-items: center;
     color: #fff;
     font-size: .24rem;
-    font-family: "M PLUS 1", sans-serif; }
+    font-family: "Noto Sans JP", sans-serif; }
     @media screen and (min-width: 769px) {
       #kitchencarS-top h2 {
         font-size: .48rem;
@@ -1604,7 +1604,7 @@ footer span {
       max-width: 780px;
       margin: auto; } }
   #kitchencarS-main article {
-    font-family: "M PLUS 1", sans-serif; }
+    font-family: "Noto Sans JP", sans-serif; }
     #kitchencarS-main article > img {
       width: 100%;
       height: auto;
@@ -1761,7 +1761,7 @@ footer span {
   position: relative;
   z-index: 100;
   padding: 64px 0;
-  font-family: "M PLUS 1", sans-serif; }
+  font-family: "Noto Sans JP", sans-serif; }
   @media screen and (min-width: 769px) {
     #daycamp-picnic {
       padding: 140px 0; } }
@@ -1772,7 +1772,7 @@ footer span {
     justify-content: center;
     align-items: center;
     color: #fff;
-    font-family: "M PLUS 1", sans-serif;
+    font-family: "Noto Sans JP", sans-serif;
     font-size: .25rem;
     font-weight: 500;
     padding: 5px 10px;
@@ -1876,7 +1876,7 @@ footer span {
       justify-content: center;
       align-items: center;
       color: #fff;
-      font-family: "M PLUS 1", sans-serif;
+      font-family: "Noto Sans JP", sans-serif;
       font-size: .25rem;
       font-weight: 500;
       padding: 5px 10px;
@@ -1963,7 +1963,7 @@ footer span {
       justify-content: center;
       align-items: center;
       color: #fff;
-      font-family: "M PLUS 1", sans-serif;
+      font-family: "Noto Sans JP", sans-serif;
       font-size: .25rem;
       font-weight: 500;
       padding: 5px 10px;
@@ -2010,7 +2010,7 @@ footer span {
       justify-content: center;
       align-items: center;
       color: #fff;
-      font-family: "M PLUS 1", sans-serif;
+      font-family: "Noto Sans JP", sans-serif;
       font-size: .25rem;
       font-weight: 500;
       padding: 5px 10px;
@@ -2069,7 +2069,7 @@ footer span {
     align-items: center;
     color: #fff;
     font-size: .24rem;
-    font-family: "M PLUS 1", sans-serif; }
+    font-family: "Noto Sans JP", sans-serif; }
     @media screen and (min-width: 769px) {
       #info-top h2 {
         font-size: .48rem;
@@ -2234,7 +2234,7 @@ footer span {
     align-items: center;
     color: #fff;
     font-size: .24rem;
-    font-family: "M PLUS 1", sans-serif; }
+    font-family: "Noto Sans JP", sans-serif; }
     @media screen and (min-width: 769px) {
       #infoS-top h2 {
         font-size: .48rem;
@@ -2274,7 +2274,7 @@ footer span {
       max-width: 780px;
       margin: auto; } }
   #infoS-main article {
-    font-family: "M PLUS 1", sans-serif; }
+    font-family: "Noto Sans JP", sans-serif; }
     #infoS-main article > img {
       width: 100%;
       height: auto;
@@ -2356,7 +2356,7 @@ footer span {
     font-size: .24rem;
     font-weight: bold;
     margin-bottom: 64px;
-    font-family: "M PLUS 1", sans-serif;
+    font-family: "Noto Sans JP", sans-serif;
     text-align: center; }
     @media screen and (min-width: 769px) {
       #infoS-bottom h2 {
@@ -2432,7 +2432,7 @@ footer span {
     align-items: center;
     color: #fff;
     font-size: .24rem;
-    font-family: "M PLUS 1", sans-serif; }
+    font-family: "Noto Sans JP", sans-serif; }
     @media screen and (min-width: 769px) {
       #kakigoya-top h2 {
         font-size: .48rem;
