@@ -716,7 +716,9 @@ footer span {
     @media screen and (min-width: 769px) {
       #home-menu a {
         width: calc(100% /4);
-        height: 500px; } }
+        height: 500px; }
+        #home-menu a:nth-child(5), #home-menu a:nth-child(6), #home-menu a:nth-child(7) {
+          width: calc(100% / 3); } }
     #home-menu a:after {
       position: absolute;
       content: "";
@@ -2526,6 +2528,91 @@ footer span {
     #kakigoya .kakigoya-menu table td {
       border: 1px solid #000;
       padding: 1em; }
+
+#shop-top {
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../images/shop-image.jpg");
+  background-position: top 70% center;
+  position: relative; }
+  @media screen and (min-width: 769px) {
+    #shop-top {
+      height: 676px; } }
+  #shop-top h2 {
+    position: relative;
+    width: 100%;
+    height: 350px; }
+    @media screen and (min-width: 769px) {
+      #shop-top h2 {
+        max-width: 1000px;
+        height: 676px;
+        margin: auto; } }
+    #shop-top h2 img {
+      position: absolute;
+      width: auto;
+      height: 55px; }
+      @media screen and (min-width: 769px) {
+        #shop-top h2 img {
+          height: 104px; } }
+  #shop-top > img {
+    position: absolute;
+    width: 100%;
+    height: auto; }
+    #shop-top > img.sp {
+      bottom: -80px; }
+      @media screen and (min-width: 769px) {
+        #shop-top > img.sp {
+          display: none; } }
+    #shop-top > img.pc {
+      display: none; }
+      @media screen and (min-width: 769px) {
+        #shop-top > img.pc {
+          display: block;
+          bottom: -77px; } }
+  #shop-top h2 img {
+    bottom: 20px;
+    right: 24px;
+    width: 280px; }
+    @media screen and (min-width: 769px) {
+      #shop-top h2 img {
+        bottom: 20px;
+        right: 0px;
+        width: 525px; } }
+
+#shop-about {
+  position: relative;
+  z-index: 100;
+  padding: 64px 0;
+  width: 100%; }
+  @media screen and (min-width: 769px) {
+    #shop-about {
+      max-width: 1000px;
+      margin: auto;
+      padding: 140px 0; } }
+  #shop-about h2 {
+    font-size: .16rem;
+    font-weight: bold;
+    margin-bottom: 24px;
+    font-family: "Noto Sans JP", sans-serif; }
+    @media screen and (min-width: 769px) {
+      #shop-about h2 {
+        font-size: .24rem; } }
+    @media screen and (min-width: 769px) {
+      #shop-about h2 br {
+        display: none; } }
+  #shop-about p {
+    font-size: .14rem;
+    font-family: "Noto Sans JP", sans-serif;
+    line-height: 2; }
+    @media screen and (min-width: 769px) {
+      #shop-about p {
+        font-size: .16rem; } }
 
 .clearfix:after {
   content: "";

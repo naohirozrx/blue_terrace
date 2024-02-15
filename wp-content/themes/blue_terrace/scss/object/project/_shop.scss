@@ -1,0 +1,43 @@
+#shop-top {
+  @include titleAreaBig;
+  background-image: url('../images/shop-image.jpg');
+  background-position: top 70% center;
+  position: relative;
+  h2 {
+    img {
+      bottom: 20px;
+      right: 24px;
+      width: 280px;
+      @media screen and (min-width: width(sp)) {
+        bottom: 20px;
+        right: 0px;
+        width: 525px;
+      }//@media
+    }
+  }
+}//kitchencar-top
+
+#shop-about {
+  position: relative;
+  z-index: 100;
+  padding: 64px 0;
+  width: 100%;
+  @media screen and (min-width: width(sp)) {
+    max-width: 1000px;
+    margin: auto;
+    padding: 140px 0;
+  }//@media
+
+  h2 {
+    @include h2titleMini;
+  }//h2
+  p {
+    font-size: .14rem;
+    font-family: $mplus;
+    line-height: 2;
+    @media screen and (min-width: width(sp)) {
+      font-size: .16rem;
+    }//@media
+  }//p
+  
+}//kitchencar-about

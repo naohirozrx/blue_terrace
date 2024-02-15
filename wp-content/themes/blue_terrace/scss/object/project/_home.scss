@@ -178,6 +178,11 @@
     @media screen and (min-width: width(sp)) {
       width: calc(100% /4);
       height: 500px;
+      &:nth-child(5),
+      &:nth-child(6),
+      &:nth-child(7) {
+        width: calc(100% / 3);
+      }
     }//@media
     &:after {
       position: absolute;
