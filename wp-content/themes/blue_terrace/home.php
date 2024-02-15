@@ -86,12 +86,12 @@
 <section id="home-menu">
   <a href="<?php echo home_url('/')?>about" class="about"><span>ブルーテラスについて</span></a>
   <a href="<?php echo home_url('/')?>food" class="food"><span>フード</span></a>
-  <a href="party" class="party"><span>パーティ</span></a>
-  <a href="gallery" class="gallery"><span>ギャラリー</span></a>
-  <a href="daycamp" class="daycamp"><span>デイキャンプ</span></a>
-  <a href="specialshop" class="specialshop"><span>特設店舗</span></a>
-  <a href="kitchencar" class="kitchencar"><span>キッチンカー</span></a>
-  <a href="shop" class="shop"><span>売店</span></a>
+  <a href="/party" class="party"><span>パーティ</span></a>
+  <a href="/gallery" class="gallery"><span>ギャラリー</span></a>
+  <a href="/daycamp" class="daycamp"><span>デイキャンプ</span></a>
+  <a href="/kakigoya" class="specialshop"><span>特設店舗</span></a>
+  <a href="/kitchencar" class="kitchencar"><span>キッチンカー</span></a>
+  <a href="/shop" class="shop"><span>売店</span></a>
 </section>
 
 <section id="home-blueterras">
