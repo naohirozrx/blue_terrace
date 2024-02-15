@@ -194,6 +194,9 @@ body {
     height: 1px;
     background-color: #fff;
     display: block; }
+    @media screen and (min-width: 769px) {
+      .sp-menu span {
+        display: none; } }
   .sp-menu.close span {
     background-color: #000; }
     .sp-menu.close span:nth-child(2) {

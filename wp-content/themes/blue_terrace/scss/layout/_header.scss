@@ -17,6 +17,9 @@
     height: 1px;
     background-color: #fff;
     display: block;
+    @media screen and (min-width: width(sp)) {
+      display: none;
+    }
   }
   &.close {
     span {
