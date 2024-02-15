@@ -59,7 +59,7 @@
 
       <a href="<?php the_permalink(); ?>" class="js-fade">
         <dl>
-          <dt><img src="<?php the_post_thumbnail_url( 'full' ); ?>" /></dt>
+        <dt><img src="<?php if (has_post_thumbnail()) { the_post_thumbnail_url('square'); } else { echo get_template_directory_uri() . '/images/info-sample.png'; } ?>" /></dt>
           <dd>
             <data><?php the_date(); ?></data>
             <h3><?php the_title(); ?></h3>

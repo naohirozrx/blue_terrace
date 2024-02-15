@@ -9,7 +9,8 @@
 <section id="infoS-main">
 	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 	<article>
-		<img src="<?php the_post_thumbnail_url( 'full' ); ?>" />
+	<dt><img src="<?php if (has_post_thumbnail()) { the_post_thumbnail_url('full'); } else { echo get_template_directory_uri() . '/images/info-sampleBig.png'; } ?>" /></dt>
+
 		<data><?php the_date(); ?></data>
 		<h2><?php the_title(); ?></h2>
 		<div>
@@ -35,7 +36,7 @@
 
 		<a href="<?php the_permalink(); ?>">
 			<dl>
-				<dt><img src="<?php the_post_thumbnail_url( 'full' ); ?>" /></dt>
+			<dt><img src="<?php if (has_post_thumbnail()) { the_post_thumbnail_url('square'); } else { echo get_template_directory_uri() . '/images/info-sample.png'; } ?>" /></dt>
 				<dd>
 					<data><?php the_date(); ?></data>
 					<h3><?php the_title(); ?></h3>
