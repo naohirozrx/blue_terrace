@@ -15,7 +15,7 @@
         <h3>海が見えるBBQエリア</h3>
         <p>
           海風を感じながら、気持ちのいいお食事を。<br />
-          食材も全てご用意！BBQの説明。BBQの説明。BBQの説明。BBQの説明。BBQの説明。BBQの説明。BBQの説明。BBQの説明。BBQの説明。BBQの説明。BBQの説明。BBQの説明。BBQの説明。BBQの説明。BBQの説明。BBQの説明。BBQの説明。BBQの説明。BBQの説明。
+青い海を一望できるBBQエリアでは、波の音をBGMに自然を感じながら、BBQをお楽しみいただけます。理想的なリラックス空間です。
         </p>
       </dd>
     </dl>
@@ -48,13 +48,13 @@
   <div>
     <h2>Camp Area.</h2>
     <p>最大700名収容可能な70サイトもある広大なキャンプエリア。<br />
-    キャンプエリアの説明。キャンプエリアの説明。キャンプエリアの説明。キャンプエリアの説明。キャンプエリアの説明。キャンプエリアの説明。キャンプエリアの説明。キャンプエリアの説明。キャンプエリアの説明。キャンプエリアの説明。キャンプエリアの説明。キャンプエリアの説明。キャンプエリアの説明。キャンプエリアの説明。キャンプエリアの説明。キャンプエリアの説明。</p>
+   
     <dl>
       <dt>
         <img src="<?php echo get_template_directory_uri(); ?>/images/camp2.jpg" />    
       </dt>
       <dd>
-        <p>キャンプエリアの説明。キャンプエリアの説明。キャンプエリアの説明。キャンプエリアの説明。キャンプエリアの説明。キャンプエリアの説明。キ</p>
+        <p></p>
         <img src="<?php echo get_template_directory_uri(); ?>/images/camp3.jpg" />
       </dd>
     </dl>
@@ -64,14 +64,14 @@
 <section id="daycamp-scenery">
   <div>
     <h2>SCENERT.</h2>
-    <p>風景の説明。風景の説明。風景の説明。風景の説明。風景の説明。風景の説明。風景の説明。風景の説明。風景の説明。風景の説明。風景の説明。</p>
+    <p>日本の白砂青松100選に選ばれている二色の浜隣接、日本の夕陽百選に選ばれている二色の浜の。</p>
   </div>
 </section>
 
 <section id="daycamp-hotspring">
   <div>
     <h2>HOT SPRING.</h2>
-    <p>温泉の説明温泉の説明温泉の説明温泉の説明温泉の説明温泉の説明温泉の説明温泉の説明温泉の説明温泉の説明温泉の説明温泉の説明温泉の説明温泉の説明温泉の説明</p>
+    <p>徒歩でいける場所に、天然温泉 虹の湯があります。</p>
   </div>
   <aside>
     <img src="<?php echo get_template_directory_uri(); ?>/images/hotspring1.jpg" /><img src="<?php echo get_template_directory_uri(); ?>/images/hotspring2.jpg" /><img src="<?php echo get_template_directory_uri(); ?>/images/hotspring3.jpg" />

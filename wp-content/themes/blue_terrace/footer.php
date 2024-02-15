@@ -39,12 +39,12 @@
     <h2>フレンチカフェ<br />二色の浜ブルーテラス</h2>
     <span>二色の浜海水浴場内</span>
     <p>OPEN 11:00　CLOSE20:00<br />
-      2023年7月8日～8月31日迄の期間限定店舗</p>
+      2024年4月オープン予定</p>
   </div>
   <div>
     <h2>ご予約・お問い合わせ</h2>
     <a href="tel:072-436-9055" class="tel">072-436-9055</a>
-    <a href="" class="reserve btn-white bgbottom"><span>予約サイト</span></a>
+    <!--<a href="" class="reserve btn-white bgbottom"><span>予約サイト</span></a>-->
   </div>
   <div>
     <h2>貸切パーティー</h2>
@@ -91,7 +91,8 @@
         <li><a href="<?php echo home_url('/')?>party">パーティ</a></li>
         <li><a href="<?php echo home_url('/')?>info">お知らせ</a></li>
         <li><a href="<?php echo home_url('/')?>gallery">ギャラリー</a></li>
-        <li><a href="<?php echo home_url('/')?>">テイクアウト</a></li>
+        <li><a href="<?php echo home_url('/')?>kakigoya">特設店舗</a></li>
+        <li><a href="<?php echo home_url('/')?>kitchencar">キッチンカー</a></li>
       </ul>
     </div>
   </div>
