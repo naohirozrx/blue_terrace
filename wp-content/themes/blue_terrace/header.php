@@ -66,6 +66,11 @@
   <header id="home-header">
     <h1><img src="<?php echo get_template_directory_uri(); ?>/images/logo-white.png" alt="BLUE TERRACE"></h1>
   </header>
+  <button class="sp-menu">
+    <span></span>
+    <span></span>
+    <span></span>
+  </button>
   <header id="others-header">
     <div>
     <a href="<?php echo home_url('/')?>"><h1><img src="<?php echo get_template_directory_uri(); ?>/images/logo-white.png" alt="BLUE TERRACE"></h1></a>
@@ -87,11 +92,11 @@
           お知らせ</a>
         </li>
         <li>
-          <a href="<?php echo home_url('/')?>"><img src="<?php echo get_template_directory_uri(); ?>/images/icon-gallery.svg" alt="ギャラリー"></dt>
+          <a href="<?php echo home_url('/')?>gallery"><img src="<?php echo get_template_directory_uri(); ?>/images/icon-gallery.svg" alt="ギャラリー"></dt>
           ギャラリー</a>
         </li>
         <li>
-          <a href="<?php echo home_url('/')?>"><img src="<?php echo get_template_directory_uri(); ?>/images/icon-kitchencar.svg" alt="特設店舗・キッチンカー">
+          <a href="<?php echo home_url('/')?>etc"><img src="<?php echo get_template_directory_uri(); ?>/images/icon-kitchencar.svg" alt="特設店舗・キッチンカー">
           特設店舗・キッチンカー</a>
         </li>
       </ul>

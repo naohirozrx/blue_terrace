@@ -29,7 +29,7 @@
         <h3>電車でお越しの方</h3>
         <p>南海線「二色浜駅」を下車。改札を出て目の前にコンビニエンスストアがございます。コンビニエンスストアの前の通りを、踏切を渡らずに左方向へそのまま直進。徒歩15分～20分で公園入口。</p>
       </div>
-      <a href="">Google Mapで開く</a>
+      <a href="https://maps.app.goo.gl/fXbumaQG5oKqpeSr7" target="_blank">Google Mapで開く</a>
     </div>
   </div>
 </section>

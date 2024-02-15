@@ -34,7 +34,7 @@
           <dd>ギャラリー</dd>
         </dl>
       </a>
-      <a href="<?php echo home_url('/')?>kitchencar">
+      <a href="<?php echo home_url('/')?>etc">
         <dl>
           <dt><img src="<?php echo get_template_directory_uri(); ?>/images/icon-kitchencar.svg" alt="特設店舗・キッチンカー" /></dt>
           <dd>特設店舗・キッチンカー</dd>

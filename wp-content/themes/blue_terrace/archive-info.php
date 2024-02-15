@@ -21,7 +21,7 @@
       <dd>
         <data><?php the_date(); ?></data>
         <h3><?php the_title(); ?></h3>
-        <p><?php the_excerpt(); ?></p>
+        <p><?php echo mb_substr( get_the_excerpt(), 0, 100 ) . '...'; ?></p>
         <a href="<?php the_permalink(); ?>">続きを読む<img src="<?php echo get_template_directory_uri(); ?>/images/arrow-right.svg" alt="続きを読む" /></a>
       </dd>
     </dl>
