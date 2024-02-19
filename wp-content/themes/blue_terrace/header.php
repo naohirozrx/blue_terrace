@@ -94,11 +94,11 @@
           <span><img src="<?php echo get_template_directory_uri(); ?>/images/icon-info.svg" alt="お知らせ" class="info"></span>
           お知らせ</a>
         </li>
-        <li>
+        <!--<li>
           <a href="<?php echo home_url('/')?>gallery">
           <span><img src="<?php echo get_template_directory_uri(); ?>/images/icon-gallery.svg" alt="ギャラリー"></span>
           ギャラリー</a>
-        </li>
+        </li>-->
         <li>
           <a href="<?php echo home_url('/')?>etc">
           <span><img src="<?php echo get_template_directory_uri(); ?>/images/icon-kitchencar.svg" alt="特設店舗・キッチンカー"></span>
@@ -138,10 +138,10 @@
           <a href="<?php echo home_url('/')?>info"><img src="<?php echo get_template_directory_uri(); ?>/images/icon-info.svg" alt="お知らせ" class="info"></dt>
           お知らせ</a>
         </li>
-        <li>
+        <!--<li>
           <a href="<?php echo home_url('/')?>gallery"><img src="<?php echo get_template_directory_uri(); ?>/images/icon-gallery.svg" alt="ギャラリー"></dt>
           ギャラリー</a>
-        </li>
+        </li>-->
         <li>
           <a href="<?php echo home_url('/')?>etc"><img src="<?php echo get_template_directory_uri(); ?>/images/icon-kitchencar.svg" alt="特設店舗・キッチンカー">
           特設店舗・キッチンカー</a>

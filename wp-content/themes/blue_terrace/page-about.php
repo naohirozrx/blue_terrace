@@ -11,9 +11,9 @@
   <div>
     <figure class="one"><img src="<?php echo get_template_directory_uri(); ?>/images/gallery.jpg" alt="二色の浜ブルーテラス" /></figure>
     <div>
-      <h2>二色の浜ブルーテラス</h2>
-      <p>二色の浜海水浴場のハワイアンバル♪♪
-最高のロケーションをバックにフレンチシェフの本格料理で営業中</p>
+      <h2>ブルーテラス　ハワイアンスタイル</h2>
+      <p>二色の浜公園内のハワイアンバル。<br />
+最高のロケーションをバックにハワイアンスタイル料理をお愉しみ頂けま</p>
     </div>
   </div>
   <div>

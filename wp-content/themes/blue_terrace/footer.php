@@ -36,10 +36,10 @@
 
 <section id="contact">
   <div>
-    <h2>フレンチカフェ<br />二色の浜ブルーテラス</h2>
-    <span>二色の浜海水浴場内</span>
+    <h2>ブルーテラス<br />ハワイアンスタイル</h2>
+    <span>二色の浜公園内</span>
     <p>OPEN 11:00　CLOSE20:00<br />
-      2024年4月オープン予定</p>
+      2024年3月オープン予定</p>
   </div>
   <div>
     <h2>ご予約・お問い合わせ</h2>
@@ -90,7 +90,7 @@
         <li><a href="<?php echo home_url('/')?>food">フード</a></li>
         <li><a href="<?php echo home_url('/')?>party">パーティ</a></li>
         <li><a href="<?php echo home_url('/')?>info">お知らせ</a></li>
-        <li><a href="<?php echo home_url('/')?>gallery">ギャラリー</a></li>
+        <!--<li><a href="<?php echo home_url('/')?>gallery">ギャラリー</a></li>-->
         <li><a href="<?php echo home_url('/')?>kakigoya">特設店舗</a></li>
         <li><a href="<?php echo home_url('/')?>kitchencar">キッチンカー</a></li>
       </ul>

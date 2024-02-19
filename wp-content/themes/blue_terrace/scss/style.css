@@ -715,10 +715,10 @@ footer span {
     position: relative; }
     @media screen and (min-width: 769px) {
       #home-menu a {
-        width: calc(100% /4);
+        width: calc(100% /3);
         height: 500px; }
-        #home-menu a:nth-child(5), #home-menu a:nth-child(6), #home-menu a:nth-child(7) {
-          width: calc(100% / 3); } }
+        #home-menu a:nth-child(4), #home-menu a:nth-child(5) {
+          width: calc(100% / 2); } }
     #home-menu a:after {
       position: absolute;
       content: "";
