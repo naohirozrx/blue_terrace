@@ -262,3 +262,17 @@
     }//p
   }//.about
 }
+
+
+//tessar
+.tessar {
+  background-image: url(../images/tessar-sp.jpg);
+  background-position: center;
+  background-size: 100% auto;
+  width: 100vw;
+  height: 100vh;
+  @media screen and (min-width: width(sp)) {
+    background-image: url(../images/tessar-pc.jpg);
+    background-size: 100% auto;
+  }
+}
