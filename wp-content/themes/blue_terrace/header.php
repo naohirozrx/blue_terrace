@@ -24,6 +24,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@100;300;400;500;700;800;900&family=Noto+Sans+JP:wght@100..900&family=Reggae+One&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
 
   <?php if (is_single()): ?>
@@ -77,22 +78,22 @@
         <li>
           <a href="<?php echo home_url('/')?>about">
           <span><img src="<?php echo get_template_directory_uri(); ?>/images/logo-white.png" alt="BLUE TERRACE" class="logo"></span>
-          ブルーテラスについて</a>
+          BLUE TERRACE</a>
         </li>
         <li>
           <a href="<?php echo home_url('/')?>food">
           <span><img src="<?php echo get_template_directory_uri(); ?>/images/icon-menu.svg" alt="フード"></span>
-          フード</a>
+          MENU</a>
         </li>
         <li>
           <a href="<?php echo home_url('/')?>party">
           <span><img src="<?php echo get_template_directory_uri(); ?>/images/icon-party.svg" alt="パーティ"></span>
-          パーティ</a>
+          PARTY</a>
         </li>
         <li>
           <a href="<?php echo home_url('/')?>info">
           <span><img src="<?php echo get_template_directory_uri(); ?>/images/icon-info.svg" alt="お知らせ" class="info"></span>
-          お知らせ</a>
+          NEWS</a>
         </li>
         <!--<li>
           <a href="<?php echo home_url('/')?>gallery">
@@ -102,7 +103,7 @@
         <li>
           <a href="<?php echo home_url('/')?>etc">
           <span><img src="<?php echo get_template_directory_uri(); ?>/images/icon-kitchencar.svg" alt="特設店舗・キッチンカー"></span>
-          特設店舗・キッチンカー</a>
+          OTHER</a>
         </li>
       </ul>
     </div>
@@ -123,20 +124,20 @@
     <a href="<?php echo home_url('/')?>"><h1><img src="<?php echo get_template_directory_uri(); ?>/images/logo-white.png" alt="BLUE TERRACE"></h1></a>
       <ul>
         <li>
-          <a href="<?php echo home_url('/')?>about"><img src="<?php echo get_template_directory_uri(); ?>/images/logo-white.png" alt="BLUE TERRACE" class="logo">
-          ブルーテラスについて</a>
+          <a href="<?php echo home_url('/')?>about"><img src="<?php echo get_template_directory_uri(); ?>/images/menu-logo.svg" alt="BLUE TERRACE" class="logo">
+          BLUE TERRACE</a>
         </li>
         <li>
           <a href="<?php echo home_url('/')?>food"><img src="<?php echo get_template_directory_uri(); ?>/images/icon-menu.svg" alt="フード"></dt>
-          フード</a>
+          MENU</a>
         </li>
         <li>
           <a href="<?php echo home_url('/')?>party"><img src="<?php echo get_template_directory_uri(); ?>/images/icon-party.svg" alt="パーティ">
-          パーティ</a>
+          PARTY</a>
         </li>
         <li>
           <a href="<?php echo home_url('/')?>info"><img src="<?php echo get_template_directory_uri(); ?>/images/icon-info.svg" alt="お知らせ" class="info"></dt>
-          お知らせ</a>
+          NEWS</a>
         </li>
         <!--<li>
           <a href="<?php echo home_url('/')?>gallery"><img src="<?php echo get_template_directory_uri(); ?>/images/icon-gallery.svg" alt="ギャラリー"></dt>
@@ -144,7 +145,7 @@
         </li>-->
         <li>
           <a href="<?php echo home_url('/')?>etc"><img src="<?php echo get_template_directory_uri(); ?>/images/icon-kitchencar.svg" alt="特設店舗・キッチンカー">
-          特設店舗・キッチンカー</a>
+          OTHER</a>
         </li>
       </ul>
     </div>

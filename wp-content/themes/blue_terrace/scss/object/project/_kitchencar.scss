@@ -28,25 +28,19 @@
     margin-bottom: 20px;
     padding: 0 24px;
     @media screen and (min-width: width(sp)) {
-      position: relative;
       margin-bottom: 64px;
     }//@media
     dt {
       margin-bottom: 24px;
-      @media screen and (min-width: width(sp)) {
-        position: absolute;
-        margin-bottom: 0;
-        top: 40px;
-      }//@media
       h2 {
         @include h2titleMini;
+
       }//h2
       p {
         font-size: .14rem;
-        font-family: $mplus;
+        
         line-height: 2;
         @media screen and (min-width: width(sp)) {
-          width: 380px;
           font-size: .16rem;
         }//@media
       }//p
@@ -54,7 +48,6 @@
     dd {
       width: 100%;
       @media screen and (min-width: width(sp)) {
-        width: 640px;
         margin-left: auto;  
       }//@media
       img {
@@ -93,7 +86,7 @@
         }//img
       }//dt
       > dd {
-        font-family: $mplus;
+        
         > h3 {
           font-size: .16rem;
           font-weight: bold;
@@ -140,7 +133,7 @@
     a {
       display: block;
       margin-bottom: 40px;
-      font-family: $mplus;
+      
       dl {
         width: 100%;
         padding: 0 24px;

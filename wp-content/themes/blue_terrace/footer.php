@@ -38,8 +38,7 @@
   <div>
     <h2>ブルーテラス<br />ハワイアンスタイル</h2>
     <span>二色の浜公園内</span>
-    <p>OPEN 11:00　CLOSE20:00<br />
-      2024年3月オープン予定</p>
+    <p>OPEN 11:00　CLOSE20:00</p>
   </div>
   <div>
     <h2>ご予約・お問い合わせ</h2>
@@ -85,14 +84,14 @@
     <h2><img src="<?php echo get_template_directory_uri(); ?>/images/logo-white.png" /></h2>
     <div>
       <ul>
-        <li><a href="<?php echo home_url('/')?>">トップページ</a></li>
-        <li><a href="<?php echo home_url('/')?>about">ブルーテラスについて</a></li>
-        <li><a href="<?php echo home_url('/')?>food">フード</a></li>
-        <li><a href="<?php echo home_url('/')?>party">パーティ</a></li>
-        <li><a href="<?php echo home_url('/')?>info">お知らせ</a></li>
+        <li><a href="<?php echo home_url('/')?>">HOME</a></li>
+        <li><a href="<?php echo home_url('/')?>about">ABOUT BLUE TERRACE</a></li>
+        <li><a href="<?php echo home_url('/')?>food">MENU</a></li>
+        <li><a href="<?php echo home_url('/')?>party">PARTY</a></li>
+        <li><a href="<?php echo home_url('/')?>info">NEWS</a></li>
         <!--<li><a href="<?php echo home_url('/')?>gallery">ギャラリー</a></li>-->
-        <li><a href="<?php echo home_url('/')?>kakigoya">特設店舗</a></li>
-        <li><a href="<?php echo home_url('/')?>kitchencar">キッチンカー</a></li>
+        <li><a href="<?php echo home_url('/')?>kakigoya">KAKIGOYA</a></li>
+        <li><a href="<?php echo home_url('/')?>kitchencar">KITCHEN CAR</a></li>
       </ul>
     </div>
   </div>

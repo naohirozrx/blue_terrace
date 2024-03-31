@@ -1,6 +1,7 @@
 #infoS-top {
   @include titleArea;
-  background-color: #116A99;
+  background-image: url('../images/news-image.jpg');
+  background-position: bottom center;
 }//home-top
 
 #infoS-main {
@@ -14,7 +15,7 @@
     margin: auto;
   }//@media
   article {
-    font-family: $mplus;
+    
     > img {
       width: 100%;
       height: auto;

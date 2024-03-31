@@ -1,8 +1,6 @@
 <?php get_header(); ?>
 
 <section id="about-top">
-  <h2><img src="<?php echo get_template_directory_uri(); ?>/images/logo-white.png" alt="BLUE TERRACE" />
-  キッチンカー・特設店舗</h2>
   <img src="<?php echo get_template_directory_uri(); ?>/images/bg-round_mini.svg" class="sp" />
   <img src="<?php echo get_template_directory_uri(); ?>/images/bg-round.svg" class="pc" />
 </section>
@@ -12,7 +10,7 @@
     <figure class="one"><img src="<?php echo get_template_directory_uri(); ?>/images/kitchencar-image1.jpg" alt="二色の浜ブルーテラス" /></figure>
     <div>
       <h2>キッチンカー</h2>
-      <p>コーヒー・ハンバーガー・たこ焼きなどニーズに合わせて出張いたします。</p>
+      <p>キッチンカー「ブルーテラス号」はブルーテラスハワイアンスタイルの料理をキッチンカーでご提供しています。</p>
       <a href="/kitchencar">詳しく見る</a>
     </div>
   </div>

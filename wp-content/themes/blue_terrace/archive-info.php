@@ -1,12 +1,13 @@
 <?php get_header(); ?>
 
 <section id="info-top">
-  <h2><img src="<?php echo get_template_directory_uri(); ?>/images/icon-pineapple.png" alt="">お知らせ</h2>
+
   <img src="<?php echo get_template_directory_uri(); ?>/images/bg-round_mini.svg" class="sp" />
   <img src="<?php echo get_template_directory_uri(); ?>/images/bg-round.svg" class="pc" />
 </section>
 
 <section id="info-main">
+<h2>NEWS</h2>
   <div class="post">
     <?php $args = array(
         'post_type' => "info",

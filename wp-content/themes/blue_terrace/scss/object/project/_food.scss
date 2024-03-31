@@ -4,20 +4,52 @@
 }//home-top
 
 #food-main {
+  position: relative;
   padding: 60px 24px;
   text-align: center;
-  img {
-    max-width: 1000px;
-    width: 100%;
-    height: auto;
-    margin: 0 auto;
+
+  h2 {
+    @include h2title();
   }
 
-  ul {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    max-width: 820px;
+  .tab-menu {
+    max-width: 1200px;
     margin: 0 auto;
+    ul {
+      display: flex;
+      gap: 2px;
+      margin-bottom: 40px;
+      li {
+        padding: 1em;
+        background-color: #EFEFEF;
+        width: 50%;
+        cursor: pointer;
+        @media screen and (min-width: width(sp)) {
+          padding: 2em 1em;
+        }
+
+        &.active {
+          background-color: #333;
+          color: #fff;
+        }
+      }
+    }
+  }
+
+  .tab-content {
+    max-width: 1200px;
+    height: auto;
+    margin: 0 auto;
+    .content {
+      display: none;
+      &.active {
+        display: block;
+      }
+
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
   }
 }

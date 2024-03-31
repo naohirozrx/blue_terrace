@@ -35,7 +35,7 @@
       }//.left
       &.right {
         line-height: 2;
-        font-family: $mplus;
+        
         @media screen and (min-width: width(sp)) {
           padding: 0 60px;
         }//@media
@@ -83,7 +83,6 @@
 background-image: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url('../images/info.jpg');
 padding: 100px 24px;
 text-align: center;
-font-family: $mplus;
 color: #fff;
 display: flex;
 flex-direction: column;
@@ -164,7 +163,7 @@ dl {
     }//@media
     h2 {
       font-size: .24rem;
-      font-family: $mplus;
+      
       margin-bottom: 32px;
       text-align: center;
       @media screen and (min-width: width(sp)) {
@@ -260,7 +259,6 @@ footer {
           margin-right: 30px;
           a {
             color: #fff;
-            font-family: $mplus;
             font-size: .14rem;
           }//a
         }//ul

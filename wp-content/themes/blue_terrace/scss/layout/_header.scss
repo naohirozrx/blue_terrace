@@ -125,7 +125,7 @@ header {
         width: 100%;
         z-index: 9999;
         @media screen and (min-width: width(sp)) {
-          background-image: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,0));
+          background-image: linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,0));
           height: 100px;
           justify-content: flex-end;
         }//@media
@@ -159,16 +159,10 @@ header {
               color: #fff;
               img {
                 width: auto;
-                height: 36px;
+                height: 26px;
                 filter: invert(99%) sepia(0%) saturate(814%) hue-rotate(73deg) brightness(111%) contrast(100%);
                 display: block;
                 margin-bottom: 5px;
-                &.logo {
-                  filter: none;
-                  width: 63px;
-                  height: auto;
-                  margin: auto;
-                }//.logo
               }//img
             }//a
           }//li

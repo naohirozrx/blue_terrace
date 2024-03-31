@@ -1,8 +1,6 @@
 @mixin h2title {
   font-size: .24rem;
-  font-weight: bold;
   margin-bottom: 64px;
-  font-family: $mplus;
   text-align: center;
   @media screen and (min-width: width(sp)) {
     font-size: .24rem;
@@ -19,7 +17,7 @@
   font-size: .16rem;
   font-weight: bold;
   margin-bottom: 24px;
-  font-family: $mplus;
+  
   @media screen and (min-width: width(sp)) {
     font-size: .24rem;
   }//@media
@@ -37,7 +35,7 @@
   justify-content: center;
   align-items: center;
   color: #fff;
-  font-family: $mplus;
+  
   font-size: .25rem;
   font-weight: 500;
   padding: 5px 10px;
@@ -52,7 +50,7 @@
 }
 
 @mixin titleArea {
-  background-position: bottom center;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -70,7 +68,7 @@
     align-items: center;
     color: #fff;
     font-size: .24rem;
-    font-family: $mplus;
+    
     @media screen and (min-width: width(sp)) {
       font-size: .48rem;
       flex-direction: row;

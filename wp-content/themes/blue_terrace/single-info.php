@@ -1,7 +1,6 @@
 <?php get_header(); ?>
 
 <section id="infoS-top">
-  <h2><img src="<?php echo get_template_directory_uri(); ?>/images/logo-white.png" alt=""></h2>
   <img src="<?php echo get_template_directory_uri(); ?>/images/bg-round_mini.svg" class="sp" />
   <img src="<?php echo get_template_directory_uri(); ?>/images/bg-round.svg" class="pc" />
 </section>

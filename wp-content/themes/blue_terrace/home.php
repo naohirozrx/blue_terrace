@@ -1,31 +1,63 @@
 <?php get_header(); ?>
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
 
+    const swiper = new Swiper('.swiper', {
+      speed: 5000,
+
+      effect: 'fade',
+      fadeEffect: {
+        crossFade: true
+      },
+      autoplay: {
+        delay: 4000,
+        disableOnInteraction: false, // ユーザーの操作後も自動再生を続ける
+      },
+
+    });
+
+  });
+</script>
 <section id="home-top">
-  <h2><img src="<?php echo get_template_directory_uri(); ?>/images/logo-white.png" alt="BLUE TERRACE" /></h2>
+  <img src="<?php echo get_template_directory_uri(); ?>/images/logo.svg" class="logo" />
+  <div class="swiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"></div>
+      <div class="swiper-slide"></div>
+      <div class="swiper-slide"></div>
+      <div class="swiper-slide"></div>
+      <div class="swiper-slide"></div>
+    </div>
+  </div>
   <menu>
     <div>
       <a href="<?php echo home_url('/')?>about">
         <dl>
-          <dt><img src="<?php echo get_template_directory_uri(); ?>/images/logo-blue.png" alt="ブルーテラスについて" /></dt>
-          <dd>ブルーテラスについて</dd>
+          <dt><img src="<?php echo get_template_directory_uri(); ?>/images/menu-logo.svg" class="blueterrace" alt="ブルーテラスについて" /></dt>
+          <dd>BLUE TERRACE</dd>
         </dl>
       </a>
       <a href="<?php echo home_url('/')?>food">
         <dl>
           <dt><img src="<?php echo get_template_directory_uri(); ?>/images/icon-menu.svg" alt="フード" /></dt>
-          <dd>フード</dd>
+          <dd>MENU</dd>
         </dl>
       </a>
       <a href="<?php echo home_url('/')?>party">
         <dl>
           <dt><img src="<?php echo get_template_directory_uri(); ?>/images/icon-party.svg" alt="パーティ" /></dt>
-          <dd>パーティ</dd>
+          <dd>PARTY</dd>
         </dl>
       </a>
       <a href="<?php echo home_url('/')?>info">
         <dl>
           <dt><img src="<?php echo get_template_directory_uri(); ?>/images/icon-info.svg" alt="お知らせ" class="info" /></dt>
-          <dd>お知らせ</dd>
+          <dd>NEWS</dd>
         </dl>
       </a>
       <!--<a href="<?php echo home_url('/')?>gallery">
@@ -37,7 +69,7 @@
       <a href="<?php echo home_url('/')?>etc">
         <dl>
           <dt><img src="<?php echo get_template_directory_uri(); ?>/images/icon-kitchencar.svg" alt="特設店舗・キッチンカー" /></dt>
-          <dd>特設店舗・キッチンカー</dd>
+          <dd>OTHER</dd>
         </dl>
       </a>
     </div>
@@ -46,7 +78,7 @@
 
 <section id="home-info">
   <div>
-    <h2>お知らせ</h2>
+    <h2>NEWS</h2>
     <div class="post">
       <?php $args = array(
           'post_type' => "info",
@@ -96,9 +128,14 @@
 
 <section id="home-blueterras">
   <div class="about">
-    <h2>二色の浜ブルーテラス</h2>
-    <p>海辺の隠れ家「ブルーテラス」は、二色の浜海水浴場に位置し、ハワイアンスタイルのバルとして営業しています。この場所は、穏やかな海の景色と優雅な雰囲気を提供する、まさに楽園のようなロケーションです。<br />
-    ブルーテラスでは、優雅な時間を過ごしながら、ハワイアンスタイルの料理と絶景を楽しむことができます。開放感あふれる空間で、心地よい海風と美味しい料理、素敵な音楽に囲まれながら、特別なひと時をお過ごしください。ブルーテラスでの体験をぜひお楽しみください。</p>
+    <h2>ブルーテラス　ハワイアンスタイル</h2>
+    <p>二色の浜の賑わいを再生したい。<br />
+    そんな想いで公園管理に取り組んでいる二色の浜リバイバル・プロジェクトグループの一員、ブルーテラスは、食を通じて二色の浜の賑わいを再生します。</p>
+    <p>海辺の隠れ家「ブルーテラス　ハワイアンスタイル」は、二色の浜公園のシンボルでもある大型モニュメント、帆船マストのふもとに位置し、ハワイアンなカフェとして営業しています。</p>
+    <p>この場所は、穏やかな海の景色と優雅な雰囲気を提供する、まさに楽園のようなロケーション。<br />
+    優雅な時間を過ごしながら、ハワイアン料理とオーシャンビューを楽しむことができる開放感あふれる空間です。<br />
+    心地よい海風とブルーテラスのシェフが腕を振るう美味しい料理、夕暮れには二色の浜自慢の夕陽を眺めながら特別なひと時をお過ごしください。
+    </p>
   </div>
 </section>
 

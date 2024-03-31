@@ -1,6 +1,7 @@
 #info-top {
   @include titleArea;
-  background-image: url('../images/party-image.jpg');
+  background-image: url('../images/news-image.jpg');
+  background-position: bottom center;
 }//home-top
 
 #info-main {
@@ -10,6 +11,10 @@
   @media screen and (min-width: width(sp)) {
     padding: 100px 24px 0 24px;
   }//@media
+
+  > h2 {
+    @include h2title();
+  }
   > div {
     width: 100%;
     display: flex;

@@ -11,6 +11,10 @@
   @media screen and (min-width: width(sp)) {
     padding-top: 90px;
   }//@media
+
+  > h2 {
+    @include h2title();
+  }
   > div {
     position: relative;
     background-image: url('../images/bg-blueterras.png');
@@ -47,7 +51,7 @@
       }//@media
       h2 {
         font-size: .24rem;
-        font-family: $mplus;
+        
         margin-bottom: 24px;
         @media screen and (min-width: width(sp)) {
           margin-bottom: 40px;
@@ -80,7 +84,7 @@
     }//@media
     p {
       font-size: .16rem;
-      font-family: $mplus;
+      
     }
   }
 }
