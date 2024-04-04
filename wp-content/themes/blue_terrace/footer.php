@@ -66,7 +66,7 @@
     <dd>
       <h2>二色の浜バーベキュー</h2>
       <p>海・砂浜・松の緑に囲まれた二色の浜の大自然の中で職場の仲間や友人、ファミリーで、 楽しいアウトドアクッキングをしてみませんか？バーベキューに必要な食材・調理器具一式をご用意いたしておりますので「手ぶら」で気軽にご利用できます。</p>
-      <a href="" class="btn bgbottom"><span>詳細を見る<img src="<?php echo get_template_directory_uri(); ?>/images/icon-link.svg" alt="詳細を見る" /></span></a>
+      <a href="https://nishikinohama.osaka.jp/play_in_nishiki/bbq/" class="btn bgbottom"><span>詳細を見る<img src="<?php echo get_template_directory_uri(); ?>/images/icon-link.svg" alt="詳細を見る" /></span></a>
     </dd>
    </dl>
    <dl>
@@ -74,7 +74,7 @@
     <dd>
       <h2>海上ウォーターパーク</h2>
       <p>大阪市内から最短のビーチ、二色の浜海水浴場に巨大な海上アスレチックが登場！！大きな海に繋がる滑り台、連結したゾーンを繋ぐ橋など、わくわくする遊具が出現します！大人も子供も大満足な二色の浜ウォーターパークで存分にお楽しみ下さい。</p>
-      <a href="" class="btn bgbottom"><span>詳細を見る<img src="<?php echo get_template_directory_uri(); ?>/images/icon-link.svg" alt="詳細を見る" /></span></a>
+      <a href="https://nishikinohama-wp.com/" class="btn bgbottom"><span>詳細を見る<img src="<?php echo get_template_directory_uri(); ?>/images/icon-link.svg" alt="詳細を見る" /></span></a>
     </dd>
    </dl>
 </section>
