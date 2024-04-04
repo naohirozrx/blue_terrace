@@ -1,5 +1,5 @@
 <section id="access">
-  <h2>二色の浜ブルーテラスへの<br />行き方</h2>
+  <h2>二色の浜ブルーテラスへの<br />アクセス方法</h2>
   <div>
     <div class="left">
       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13162.37289065283!2d135.31816895541985!3d34.4370863!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000c7d31f39c7bb%3A0x466c34ca1c2c7797!2z5LqM6Imy44Gu5rWc5YWs5ZyS!5e0!3m2!1sja!2sjp!4v1705048759421!5m2!1sja!2sjp" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -38,11 +38,11 @@
   <div>
     <h2>ブルーテラス<br />ハワイアンスタイル</h2>
     <span>二色の浜公園内</span>
-    <p>OPEN 11:00　CLOSE20:00</p>
+    <p>OPEN 11:00　CLOSE19:00</p>
   </div>
   <div>
     <h2>ご予約・お問い合わせ</h2>
-    <a href="tel:072-436-9055" class="tel">072-436-9055</a>
+    <a href="tel:072-436-9024" class="tel">072-436-9024</a>
     <!--<a href="" class="reserve btn-white bgbottom"><span>予約サイト</span></a>-->
   </div>
   <div>
@@ -65,7 +65,7 @@
     <dt><img src="<?php echo get_template_directory_uri(); ?>/images/bbq.jpg" alt="二色の浜バーベキュー" /></dt>
     <dd>
       <h2>二色の浜バーベキュー</h2>
-      <p>海・砂浜・松の緑に囲まれた二色の浜の大自然の中で職場の仲間や友人、ファミリーで、 楽しいアウトドアクッキングをしてみませんか？バーベキューに必要な食材・調理器具一式をご用意いたしておりますから「手ぶら」で気軽にご利用できます。</p>
+      <p>海・砂浜・松の緑に囲まれた二色の浜の大自然の中で職場の仲間や友人、ファミリーで、 楽しいアウトドアクッキングをしてみませんか？バーベキューに必要な食材・調理器具一式をご用意いたしておりますので「手ぶら」で気軽にご利用できます。</p>
       <a href="" class="btn bgbottom"><span>詳細を見る<img src="<?php echo get_template_directory_uri(); ?>/images/icon-link.svg" alt="詳細を見る" /></span></a>
     </dd>
    </dl>

@@ -2586,6 +2586,9 @@ footer span {
     #kakigoya .kakigoya-menu table td {
       border: 1px solid #000;
       padding: 1em; }
+  #kakigoya .kakigoya-cal img {
+    max-width: 100%;
+    height: auto; }
 
 #shop-top {
   background-position: bottom center;

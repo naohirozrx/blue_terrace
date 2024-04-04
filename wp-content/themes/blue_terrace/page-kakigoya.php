@@ -123,7 +123,7 @@
   </div>
 
   <div class="kakigoya-cal">
-    <h2>営業カレンダーを見る</h2>
+    <h2>営業カレンダー</h2>
     <p>天候や周辺の状況により変更となる場合があります。<br />
     最新の営業情報をホームページ又はSNSよりご確認の上ご来店下さい。</p>
     <img src="<?php echo get_template_directory_uri(); ?>/images/2.png" />
