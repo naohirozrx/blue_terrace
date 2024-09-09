@@ -90,14 +90,24 @@
 }
 
 #party-menu {
-  padding: 120px 24px 0 24px;
-  img {
-    width: 100%;
-    height: auto;
-    display: block;
-    margin: auto;
+  background-color: #D9D9D9;
+  padding: 72px 24px;
+  position: relative;
+  @media screen and (min-width: width(sp)) {
+    padding: 72px 24px 184px 24px;
+  }//@media
+  h2 {
+    @include h2title;
+  }//h2
+  div {
     @media screen and (min-width: width(sp)) {
-      width: 1000px;
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
     }//@media
+    p {
+      font-size: .16rem;
+      
+    }
   }
 }
