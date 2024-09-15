@@ -24,6 +24,14 @@
         margin-bottom: 42px;
       }//@media
     }//img
+
+    dt {
+      img {
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 1em;
+      }
+    }
     data {
       font-size: .12rem;
       margin-bottom: 24px;

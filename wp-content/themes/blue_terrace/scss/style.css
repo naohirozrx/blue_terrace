@@ -2363,6 +2363,10 @@ footer span {
     @media screen and (min-width: 769px) {
       #infoS-main article > img {
         margin-bottom: 42px; } }
+  #infoS-main article dt img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1em; }
   #infoS-main article data {
     font-size: .12rem;
     margin-bottom: 24px;
